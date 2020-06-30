@@ -15,6 +15,6 @@ function equalValue(){
         var result = eval(initialvalue)
     document.getElementById("display").value = result
     } catch (error) {
-        document.getElementById("display").value = " ERROR"+" Please Press Clear Button " 
+        document.getElementById("display").value = "ERROR"+"  Please press Clear Button" 
     }
 }
