@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="subject">
+        <div id="calculatordisplay">
+          <input type="text" id="display">
+        </div>
+        <div id="firstrow">
+          <button onclick="press(7)" id="seven">7</button>
+          <button onclick="press(8)" id="eight">8</button>
+          <button onclick="press(9)" id="nine">9</button>
+          <button onclick="clearValue()" id="clear">CLEAR</button>
+        </div>
+        <div id="secondrow">
+          <button onclick="press(4)" id="four">4</button>
+          <button onclick="press(5)" id="five">5</button>
+          <button onclick="press(6)" id="six">6</button>
+          <button onclick="press('/')" id="divide">÷</button>
+          <button onclick="press('*')" id="multiplication">×</button>
+        </div>
+        <div id="thirdrow">
+          <button onclick="press(1)" id="one">1</button>
+          <button onclick="press(2)" id="two">2</button>
+          <button onclick="press(3)" id="three">3</button>
+          <button onclick="press('-')" id="substraction">-</button>
+        </div>
+        <div id="forthrow">
+          <button onclick="press('.')" id="point">.</button>
+          <button onclick="press(0)" id="zero">0</button>
+          <button onclick="equalValue()" id="equal">=</button>
+          <button onclick="press('+')" id="addition">+</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
